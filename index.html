@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeta's 40th Music Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="title-screen" class="title-screen">
+        <div class="birthday-content">
+            <h1>🎂 Happy 40th Birthday Meeta! 🎂</h1>
+            <p>Welcome to the Ultimate Music Guessing Game</p>
+            <button id="start-btn" class="start-btn">Let's Play!</button>
+        </div>
+    </div>
+
+    <div id="game-container" class="game-container hidden">
+        <div id="slide-info">Slide 1 of 11</div>
+        <div id="timer">10</div>
+        
+        <div id="stage" class="stage">
+            <div id="prompt" class="prompt"></div>
+            <div id="answer" class="answer hidden"></div>
+        </div>
+
+        <div class="controls">
+            <button id="back-btn" class="secondary-btn">Back</button>
+            <button id="reveal-btn">Reveal Answer</button>
+            <button id="next-btn" class="hidden">Next Slide</button>
+            <button id="restart-btn" class="secondary-btn">Restart</button>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
